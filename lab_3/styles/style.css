@@ -18,3 +18,19 @@ header, section, article, nav, aside, footer, div {
     border: 1px dashed red;
 }
 
+.row {
+    display: flex;
+  }
+  
+.column-L {
+    flex: 70%;
+}
+
+.column-R {
+    flex: 30%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
