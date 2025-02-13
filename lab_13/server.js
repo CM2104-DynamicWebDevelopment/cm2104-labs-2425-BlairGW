@@ -41,6 +41,7 @@ app.post('/quotes', function (req, res) {
     db.collection('quotes').insertOne(req.body, function(err, result) {
     if (err) throw err;
         console.log('saved to database')
+        console.log(req.body);
         res.redirect('/')
     })
 })
